@@ -4,14 +4,22 @@
 # A trivia game
 
 print("Hello! Welcome to this Disney Trivia Game!")
+
 print("Test your knowledge about all things Disney!")
+
 print(10 ** 2)
 
+
 question = input("Do you want to play? [Y/N]")
+
 while question == "n":
+    
     print("Wrong answer. Try again")
+    
     question = input("Do you want to play? [Y/N]")
+    
     if question == "y":
+    
         print("Let's begin!")
 
 def win():
